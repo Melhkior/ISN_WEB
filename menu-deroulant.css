@@ -1,0 +1,41 @@
+#menu-deroulant, #menu-deroulant ul {
+/* on centre le menu dans la page */
+	padding: 0;
+    margin: 0;
+    list-style: none;
+	text-align: center
+}
+#menu-deroulant a{
+/* on définie les a comme étant des "block", de même taille pour rendre le tout homogène */
+	text-decoration:none;
+	display:block;
+	padding:8px 32px;
+	color:black;
+	font-family:arial;
+	font-size: 16;
+	width: 200;
+}
+#menu-deroulant li{
+/* on définit la couleur de fond des zones pour le liens */
+	background-color: darkgrey;
+}
+#menu-deroulant li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+}
+#menu-deroulant ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+}
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+	text-align:center;
+}
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}

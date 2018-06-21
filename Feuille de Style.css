@@ -1,0 +1,52 @@
+html, body {
+ margin: 0;
+ padding: 0;
+ }
+body {
+/* on définie la couleur de fond de la page, en plus de la police d'écriture et de sa taille */
+ background-color: lightgrey; 
+ font-family: Verdana, sans-serif; 
+ font-size: 100%;
+ }
+ h1{
+ /* Mise en page pour les titres de page */
+  color: darkred;
+  font-size: 42;
+  text-align: center;
+  /* On crée une marge autour des titres */
+  padding-bottom: 10;
+  padding-top: 10;
+  }
+  h2{
+  /* Mise en page pour les sous parties */
+  color: Darkblue;
+  font-size: 26;
+  padding-left: 10;
+  }
+  h3{
+  /* Mise en page de la question sur l'anonymat */
+  color: Darkgreen;
+  font-size: 26;
+  /* on centre le texte dans la page */
+  text-align: center;
+  }
+  p{
+  /* Mise en page des pragraphes */
+  color : black;
+  font-size: 16;
+  padding-left: 22;
+  }
+  #charlotte{
+  /* on crée une image flottante pour l'image portant l'id "charlotte" sur la droite, et décalé de la droite */
+  float: right;
+  padding-right: 100;
+  }
+
+ #accueil{
+ /* On centre le texte de l'accueil, on lui définit une marge et une taille globale*/
+  text-align:center;
+  font-size:22;
+  width: 1000;
+  padding: 20;
+  margin: 10
+  }

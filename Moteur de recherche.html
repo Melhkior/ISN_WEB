@@ -1,0 +1,125 @@
+<HTML lANG=FR>
+ <HEAD>
+  <link href="./menu-deroulant.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="./Feuille de Style.css" rel="stylesheet" type="text/css" media="all" />
+  <TITLE>R&eacute;f&eacute;rencement et Anonymat sur le web</TITLE>
+ </HEAD>
+ <BODY>
+ <h1>Moteur de recherche</h1>
+ <ul id="menu-deroulant">
+  <li><a href="./Referencement, Anonymat sur Web.html">Accueil</a></li>
+	<li><a href="./Moteur de recherche.html">Moteur de recherche</a>
+		<ul>
+			<li><a href="#Son fonctionnement">Son fonctionnement</a></li>
+			<li><a href="#Ses algorithmes">Ses algorithmes</a></li>
+		</ul>
+	</li>
+	<li><a href="./Le referencement.html">Le r&eacute;f&eacute;rencement</a>
+		<ul>
+			<li><a href="./Le referencement.html#Ses methodes">Ses m&eacute;thodes</a></li>
+			<li><a href="./Le referencement.html#Ses ameliorations">Ses am&eacute;liorations possibles</a></li>
+		</ul>
+	</li>
+	<li><a href="./Les traces de navigation.html">Les traces de navigation</a>
+		<ul>
+			<li><a href="./Les traces de navigation.html#Cookies">Les cookies</a></li>
+			<li><a href="./Les traces de navigation.html#Flux">Flux fianciers associ&eacute;s</a></li>
+		</ul>
+	</li>
+	<li><a href="./L'anonymat des internautes.html">L'anonymat des internautes</a>
+		<ul>
+			<li><a href="./L'anonymat des internautes.html#Loi">Ce que dit la loi</a></li>
+			<li><a href="./L'anonymat des internautes.html#Vie">Pistes de protection de la vie priv&eacute;e</a></li>
+		</ul>
+	</li>
+ </ul>
+<h2>D&eacute;finition du moteur de recherche :</h2><!-- Titre de la page-->
+<br>
+<p> Un moteur de recherche est un programme informatique con&ccedil;u pour effectuer des recherches sur une base de donn&eacute;es. Pour un utilisateur
+lambda, c'est un site web qui permet de trouver les adresses d'autres sites web en entrant des mots clefs dans une barre de recherche.<br>
+C'est en fait globalement un ensemble de robot ayant chacun sa fonction.
+Ils circulent sur les serveurs d&eacute;clar&eacute;s du Web, recensent les pages, les classent et fournissent leurs adresses suite &agrave; la requ&ecirc;te envoy&eacute;e par l'utilisateur.</p>
+<br>
+<br>
+<center>
+<img src="./moteurs de recherche.png" width=415 height=230.5><!-- Insertion d'une image, on centre celle-ci, et on modifie de manière proportionnelle sa taille pour qu'elle ne soit pas déformée, et ni trop grande -->
+</center>
+<br>
+<br>
+<h2><div id="Son fonctionnement">Son fonctionnement:</div></h2> <!-- Création d'une ancre permettant de pouvoir revenir ici grâce au menu déroulant -->
+<br>
+<p>Le moteur de recherche est g&eacute;n&eacute;ralement compos&eacute; de 3 modules:<br>
+<br>
+&diams; <u>Le module de collecte automatique des donn&eacute;es qui est compos&eacute; de deux logiciels robotiques compl&eacute;mentaires:</u><br>
+<br>
+-Le "Spider" qui t&eacute;l&eacute;charge le code source des pages d'un site web.<br>
+-Le "Crawler" qui le poursuit et collecte les liens trouv&eacute;s sur les pages t&eacute;l&eacute;charg&eacute;es.<br>
+<br>
+&diams;<u>Le module d'indexation automatique des donn&eacute;es qui comporte:</u><br>
+<br>
+-"L'indexeur" qui fragmente et analyse les pages avant de les indexer.<br>
+-La "Base de donn&eacute;es" qui est l'endroit o&ugrave; sont stock&eacute;s les textes index&eacute;s des pages t&eacute;l&eacute;charg&eacute;es.<br>
+<br>
+&diams;<u>Et pour finir du module de gestion des requ&ecirc;tes et de pr&eacute;sentation des r&eacute;sultats &agrave; qui lui est associ&eacute;:</u><br>
+<br>
+-"L'interrogateur" qui utilise la base de donn&eacute;es afin de r&eacute;pondre &agrave; la requ&ecirc;te des utilisateurs.<br>
+<br>
+<br>
+</p>
+<center><img src="./Spider Web.jpg" width=464 height=308></center>
+<br>
+<br>
+<p>
+&diams;<u>Ces modules sont parfois accompagn&eacute;s d'un 4&egrave;me autre module favorisant la pertinence des r&eacute;sultats, il contient:<br></u><!--&diams; est le code du caractère spécial du losange/ pratique pour une mise en page-->
+<br>
+- Le "Correcteur orthographique" qui corrige les erreurs d'orthographe provenant de la requ&ecirc;te.<br>
+- Le "Lemmatiseur" qui r&eacute;duit les mots &agrave; leurs sens de fa&ccedil;on &agrave; faciliter la recherche.<br>
+- Et "L'Anti-Dictionnaire" qui supprime les mots dit "vides" (de, le, la, les, etc) perturbant la recherche.<br></p>
+<br>
+<br>
+<h2><div id="Ses algorithmes">Le principe de l'algorithme du moteur de recherche:</div></h2>
+<br>
+<p> Les algorithmes des moteurs de recherche sont des syst&egrave;mes de programmation complexes, cr&eacute;&eacute; pour d&eacute;terminer
+quelle page est la plus int&eacute;ressante vis &agrave; vis de la requ&ecirc;te de l'utilisateur.<br> Il faut prendre en compte que chaque moteur
+de recherche poss&egrave;de son propre algorithme ou groupe d'algorithmes, qui d&eacute;pendent de variables bas&eacute;es sur des facteurs internes ou externes aux pages
+(URL/Titre de la page (balise title)/ contenu du texte/ les &eacute;l&eacute;ments mis en avant par des balises html)<br>
+<br>
+<br>
+Prenons l'exemple de l'algorithme de Google :<br>
+<br>
+C'est un ensemble de plusieurs algorithmes dont le plus connu est le "Page Rank". Il mesure la popularit&eacute; des pages Web alors que, par exemple, un autre de ses
+algorithmes, le "Filtre Panda", mesure la qualit&eacute; des pages index&eacute;es.<br></p>
+<br>
+<br>
+<center>
+<img src="./algorithme.jpg">
+<br>
+<br>
+<font size=0,12> <!-- Création d'une légende pour l'image -->
+&part; : Facteur d'amortissement donn&eacute; &agrave; 0,85<br>
+n : Nombre total de liens entrants<br>
+PR exposant n :Pagerank des liens entrants pour n pages<br>
+C exposant n : Nombre de liens sortants pour n pages<br>
+</font size>
+</center>
+<br>
+<p>De plus les algorithmes utilis&eacute;s varient en fonction du type de requ&ecirc;te ou de contenu recherch&eacute;.<br>
+Pour une image, l'actualit&eacute; de celle-ci va avoir un poids important dans la recherche.<br></p>
+<br>
+<br>
+<br>
+<font size=0.12> Sources infos:<br>
+www.sites.univ-rennes2.fr/urfist/ressources/moteurs-de-recherche-principes-de-fonctionnement/rappel-de-la-definition-du-fonctionnemen<br>
+www.infowebmaster.fr/108,news-comment-fonctionne-moteur-recherche.html<br>
+www.abacus-referencement.com/lexique/moteur-de-recherch.html<br>
+www.abacus-referencement.com/lexique/algorithme.html<br>
+https://fr.wikipedia.org/wiki/Moteur-de-recherche#Fonctionnement<br>
+http://www.definitions-marketing.com/definition/algorithme-google/<br>
+<br>
+Sources images:<br>
+data-observer.com<br>
+cercledesconnaissances.blogsport.fr/2013/08/web-crawlers-or-search-spiders-key.html<br>
+http://www.definitions-marketing.com/definition/algorithme-google/<br>
+</BODY>
+</HTML>
+
